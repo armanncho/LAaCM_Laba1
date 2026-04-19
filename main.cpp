@@ -19,7 +19,6 @@ int main() {
 
     std::cout << "===== EXPERIMENT 4.1 =====\n";
 
-    std::vector<int> sizes = {100, 200, 500};
 
     for (int n : sizes) {
         Matrix A = generate_matrix(n);
@@ -71,7 +70,6 @@ int main() {
     int n = 500;
     Matrix A = generate_matrix(n);
 
-    std::vector<int> ks = {1, 10, 100};
 
     for (int k : ks) {
         std::vector<Vector> bs;
